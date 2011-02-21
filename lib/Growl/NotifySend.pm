@@ -3,7 +3,7 @@ use 5.008_001;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp           ();
 use File::Which    ();
@@ -54,7 +54,7 @@ Growl::NotifySend - Perl extention to do something
 
 =head1 VERSION
 
-This document describes Growl::NotifySend version 0.01.
+This document describes Growl::NotifySend version 0.02.
 
 =head1 SYNOPSIS
 

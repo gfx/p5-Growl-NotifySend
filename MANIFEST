@@ -15,6 +15,7 @@ META.yml
 README
 t/000_load.t
 t/001_basic.t
+t/002_text.t
 xt/perlcritic.t
 xt/pod.t
 xt/podcoverage.t
