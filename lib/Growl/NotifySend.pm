@@ -3,7 +3,7 @@ use 5.008_001;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Carp           ();
 use File::Which    ();
@@ -25,7 +25,7 @@ sub show {
         if(defined $args{$opt}) {
             my $o = '--' . $opt;
             $o =~ s/_/-/g;
-            push @opts, $o, $args{$o};
+            push @opts, $o, $args{$opt};
         }
     }
 
